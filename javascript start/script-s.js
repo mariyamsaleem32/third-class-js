@@ -42,10 +42,21 @@ console.log(newNum);
 //             console.log("you are not aligible for vote" );
 //         }
 
-let number = +prompt ("enter your number");
-if (number %2 ==0){
-    console.log(number, "is even number");
+// let number = +prompt ("enter your number");
+// if (number %2 ==0){
+//     console.log(number, "is even number");
+// }
+// else{
+//     console.log(number,"is odd number");
+// }
+
+let age = +prompt ("enter your number");
+if (age > 40){
+    console.log(age, "you are senior");
+}
+else if (age < 18) {
+    console.log("you are jonior");
 }
 else{
-    console.log(number,"is odd number");
+    console.log("you are middle");
 }
